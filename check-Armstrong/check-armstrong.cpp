@@ -11,3 +11,6 @@ bool checkArmstrong(int n){
     if (sum == original) return true;
     return false;
 }
+
+// T.C =>  O(log N)
+// S.C => O(1)
