@@ -6,3 +6,6 @@ int countDigits(int n){
 	}
 	return cnt;	
 }
+
+// T.C => O(log N)
+// S.C => O(1)
