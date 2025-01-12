@@ -10,3 +10,6 @@ int gcd(int a,int b)
 	return 1;
 }
 
+// T.C => O(min(a, b)
+// S.C => O(1)
+
