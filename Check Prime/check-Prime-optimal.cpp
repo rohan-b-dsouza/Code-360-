@@ -23,5 +23,5 @@ int main() {
 		return 0;
 }
 
-// T.C => O(n)
+// T.C => O(sqrt(n))
 // S.C => O(1)
