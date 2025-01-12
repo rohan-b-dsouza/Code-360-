@@ -1,3 +1,5 @@
+// Using the Euclidean Algorithm =>
+
 int gcd(int a,int b)
 {
 	while (a != 0 && b != 0) {
@@ -5,7 +7,7 @@ int gcd(int a,int b)
 		else b = b % a;
 	}
 	if (a == 0) return b;
-	else return a;
+	return a;
 }
 
 // T.C => O(log(min(a, b))) as initially we start from min(a,b)
