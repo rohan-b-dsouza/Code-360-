@@ -10,5 +10,5 @@ int gcd(int a,int b)
 	return a;
 }
 
-// T.C => O(log(min(a, b))) as initially we start from min(a,b)
+// T.C => O(log(min(a, b))) as initially we start from min(a,b) ----------{log to the base Φ as in each step the value of phi will be different as either a or b will have different value in each step}
 // S.C => O(1)
