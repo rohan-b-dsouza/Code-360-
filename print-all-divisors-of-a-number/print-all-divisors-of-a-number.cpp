@@ -8,7 +8,7 @@ int* printDivisors(int n, int &size){  // refer vs code striver's dsa -> 3.Basic
             }
         }
     }
-    sort (v.begin(), v.end()); // T.C => O(NlogN), where N = number of factors
+    sort (v.begin(), v.end()); // T.C => O(NlogN), where N = number of factors  --------------------------{as internal sort takes time complexity of O(nlogn)}
     size = v.size(); // updating the size of array at caller's function to accomodate the factors of the number
     int *num = new int[size]; // creating a pointer to a new array, this pointer will be returned to caller (it points to first element of new array ,created on heap)
     for (int i = 0 ; i < size; i++) { // T.C => O(N), where N = number of factors
