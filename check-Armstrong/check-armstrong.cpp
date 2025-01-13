@@ -12,5 +12,5 @@ bool checkArmstrong(int n){
     return false;
 }
 
-// T.C =>  O(log N)
+// T.C =>  O(log N) -------------{log to the base 10, as n is repeatedly divided by 10}
 // S.C => O(1)
