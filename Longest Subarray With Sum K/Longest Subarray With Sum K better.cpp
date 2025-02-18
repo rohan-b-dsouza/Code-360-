@@ -1,5 +1,9 @@
 // Better - Approach =>
 
+// } Driver Code Ends
+// Note :- This codechef qn constraints specify that elements can be positives and zeroes.
+// This is a Better Solution when only positives and zeros occur, but Optimal Solution when positives,negatives,zeroes occur.
+
 class Solution {
   public:
     int longestSubarray(vector<int>& arr, int k) {
