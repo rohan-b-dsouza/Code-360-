@@ -1,7 +1,9 @@
-// Optimal Approach => (Using Two - Pointers)
+// Optimal Approach - 2 => (Using Two - Pointers)
+// Use this approach only when interviewer specifies that we can't use map for solving this qn.
+// This is slightly less better than Optimal Approach - 1
 
 string read(int n, vector<int> book, int target)
-{https://github.com/rohan-b-dsouza/Code-360-/tree/main/Two%20Sum
+{
     int i = 0;
     int j = book.size() - 1;
     sort(book.begin(), book.end());
@@ -13,3 +15,6 @@ string read(int n, vector<int> book, int target)
     }
     return "NO";
 }
+
+// T.C => O(n*log(n) + O(n)) = O(n*log(n))
+// S.C => O(1)
