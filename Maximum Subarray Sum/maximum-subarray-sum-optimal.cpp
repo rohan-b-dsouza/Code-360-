@@ -20,3 +20,6 @@ long long maxSubarraySum(vector<int> arr, int n)
     }
     return largestSumSubarray;
 }
+
+// T.C => O(n)
+// S.C => O(1)
