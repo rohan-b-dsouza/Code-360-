@@ -1,4 +1,5 @@
-// Optimal - Solution => (Only for qn where only positives and zeroes occur)
+// Optimal - Solution => (Sliding window / Two Pointer Approach) =>
+// (Only for qn where only positives and zeroes occur)
 
 int longestSubarrayWithSumK(vector<int> a, long long k) {
     int i = 0;
