@@ -20,3 +20,6 @@ public class Solution {
         return ans;
     }
 }
+
+// T.C => O(n ^ 2)
+// S.C => O(1)
