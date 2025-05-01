@@ -1,4 +1,4 @@
-// Optimal Solution - 2
+// Optimal Solution - 2 (Best Solution to avoid use of 'long' for handling integer overflow issues, as xor won't cause integer overflow) 
 
 import java.util.* ;
 import java.io.*; 
