@@ -21,5 +21,5 @@ public class Solution {
     }
 }
 
-// T.C => O(2 * n) = O(n)
+// T.C => O(n) + O(2 * n) = O(3 * n) = O(n)
 // S.C => O(n) for stack and O(n) for 'ans' array
