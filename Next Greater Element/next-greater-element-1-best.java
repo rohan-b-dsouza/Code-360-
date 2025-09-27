@@ -25,5 +25,5 @@ public class Solution {
 }
 
 
-// T.C => O(2 * n) as inner loop can go upto n in worst case
-// S.C => O(2 * n) for the 'stack' and 'ans'
+// T.C => O(2 * n) = O(n) as inner loop can go upto n in worst case
+// S.C => O(2 * n) = O(n) for the 'stack' and 'ans'
