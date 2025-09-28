@@ -1,4 +1,4 @@
-// Optimal - 1
+// Optimal - 1 (Monotonic Decreasing Stack)
 
 import java.util.*;
 
